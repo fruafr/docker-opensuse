@@ -11,7 +11,7 @@ RUN zypper --gpg-auto-import-keys ref
 RUN zypper -n update
 
 RUN zypper ar http://download.opensuse.org/update/leap/42.3/oss/ 'OSS Update'
-RUN zypper --gpg-auto-import-keys -y ref
+RUN zypper --no-gpg-checks ref 
 RUN zypper -n update
 
 VOLUME ["/sys/fs/cgroup"]
