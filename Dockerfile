@@ -9,7 +9,7 @@ ENV container=docker
 RUN zypper rr 'OSS Update'
 RUN zypper install -y curl
 RUN zypper --gpg-auto-import-keys ref
-RUN zypper -n -G update
+RUN zypper -n update
 
 RUN rpm --import http://download.opensuse.org/update/leap/42.3/oss/repodata/repomd.xml.key
 RUN zypper ar http://download.opensuse.org/update/leap/42.3/oss/ 'OSS Update'
