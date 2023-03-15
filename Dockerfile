@@ -6,6 +6,7 @@ LABEL build_date="2023-03-15"
 ENV container=docker
 
 # Refresh and update packages
+RUN zypper --gpg-auto-import-keys ref
 RUN zypper -n refresh -f
 RUN zypper -n -G update
 
