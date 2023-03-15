@@ -6,7 +6,7 @@ LABEL build_date="2023-03-15"
 ENV container=docker
 
 # Refresh and update packages
-RUN zypper -n refresh
+RUN zypper -n refresh -f
 RUN zypper -n -G update
 
 VOLUME ["/sys/fs/cgroup"]
