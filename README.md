@@ -57,7 +57,7 @@ docker run \
 - [OpenSuse - Archive - Docker Hub](https://hub.docker.com/r/opensuse/archive)
 - [OpenSuse - Lifetime](https://en.opensuse.org/Lifetime)
 
-### Latest
+### Current
 
 |OpenSuse Version    |Docker image tag                |Current version |
 |------------------|--------------------------------|----------------|
@@ -65,14 +65,14 @@ docker run \
 
 ### Versions History (Long Term Support - LTS)
 
-### Supported versions
+#### Supported versions
 
 |Year Released |OpenSuse Version |Docker image tag                  |End of Life               |Repo Branch       |
 |--------------|---------------|--------------|----------------------------------|--------------------------|
 | 2022 | 15.4 | `docker pull opensuse/leap:15.4` | ? | 15.4 |
 | 2018 | 15 | `docker pull opensuse/leap:15` | 15.5 | 15 |
 
-### Obsolete versions 
+#### Obsolete versions 
 
 Some obsolete versions :
 
