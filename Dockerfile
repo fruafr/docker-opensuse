@@ -1,4 +1,4 @@
-FROM opensuse/leap:42.3
+FROM opensuse/leap:42
 
 LABEL maintainer="David HEURTEVENT <david@heurtevent.org>"
 LABEL build_date="2023-03-15"
