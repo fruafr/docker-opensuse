@@ -6,7 +6,7 @@ LABEL build_date="2023-03-15"
 ENV container=docker
 
 # Refresh and update packages
-RUN zypper -n ar --gpg-auto-import-keys
+RUN zypper -n --gpg-auto-import-keys ar
 RUN zypper -n update
 
 VOLUME ["/sys/fs/cgroup"]
