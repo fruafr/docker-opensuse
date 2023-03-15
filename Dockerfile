@@ -7,7 +7,7 @@ ENV container=docker
 
 # Refresh and update packages
 RUN zypper --gpg-auto-import-keys refresh
-RUN zypper -n update
+RUN yes | zypper -n update
 
 VOLUME ["/sys/fs/cgroup"]
 
