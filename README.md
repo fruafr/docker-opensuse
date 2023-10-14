@@ -6,8 +6,6 @@ The Dockerfiles are available in the [fruafr/docker-opensuse Github repository](
 
 The resulting docker containers are available in the [fruafr/opensuse Docker Hub](https://hub.docker.com/repository/docker/fruafr/opensuse)
 
-[![opensuse build status](https://img.shields.io/docker/cloud/build/fruafr/opensuse.svg)](https://hub.docker.com/repository/docker/fruafr/opensuse)
-
 ## Current
 
 This repository has multiple branches that relate to OpenSuse Leap versions.
