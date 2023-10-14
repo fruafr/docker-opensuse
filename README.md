@@ -81,4 +81,4 @@ Some obsolete versions :
 | 2014 | 13.2 | `docker pull opensuse/archive:13.2`| 2017-01 | 13.2 |
 
 ----
-Updated: 2023-03-15
+Updated: 2023-10-14
